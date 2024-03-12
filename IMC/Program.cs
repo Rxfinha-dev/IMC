@@ -26,27 +26,27 @@ namespace IMC
 
             Console.WriteLine("O seu imc está em: " + imc);
             //tabela de peso
-            if (imc < 16.9)
+            if (imc < 17)
             {
                 Console.WriteLine("Muito Abaixo do Peso");
             }
-            else if (imc < 18.4)
+            else if (imc < 18.5)
             {
                 Console.WriteLine("Abaixo do Peso");
             }
-            else if (imc < 24.9)
+            else if (imc < 25)
             {
                 Console.WriteLine("Peso Normal");
             }
-            else if (imc < 29.9)
+            else if (imc < 30)
             {
                 Console.WriteLine("Acima do Peso");
             }
-            else if (imc < 34.9)
+            else if (imc < 35)
             {
                 Console.WriteLine("Obesidade Grau 1");
             }
-            else if (imc < 40) 
+            else if (imc < 41) 
             { 
             Console.WriteLine("Obesidade Grau 2");
             }else if(imc > 40)
